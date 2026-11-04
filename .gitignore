@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+pnpm-lock.yaml
+
+# logs & temp
+*.log
+tmp/
+tmp_*
+.edgeprof*/
+*.swp
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# local credentials (never commit)
+.gh_token
+gh_token.txt
+.env
